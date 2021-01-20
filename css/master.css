@@ -1,0 +1,168 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+background-color: grey;
+}
+.clearfix::after{
+content: "";
+display: table;
+clear: both;
+}
+/* fine istruzioni di base */
+.contenitore {
+width: 80vw;
+margin: 0 auto;
+}
+/* fine istruzioni contenitore */
+
+
+/* inizio header */
+.header{
+background-color: rgba(0,0,0,0.5);
+margin-top: 5vh;
+width: 80vw;
+height: 15vh;
+
+}
+.logo img{
+padding: 5px;
+width:12vw;
+height: 10vh;
+}
+.title{
+width: 80vw;
+height: 10vh;
+
+}
+.nav{
+background-color: rgba(0,0,0,0.7);
+margin-bottom: 2vh;
+width: 80vw;
+height: 5vh;
+}
+.nav ul li {
+padding:  0 3px;
+display: inline-block;
+list-style: none;
+text-align: center;
+margin-left: 15%;
+line-height: 5vh;
+}
+.nav ul li:hover{
+background: dodgerblue;
+}
+.nav ul li a{
+text-decoration: none;
+color: white;
+font-weight: 700;
+}
+/* fine menu nav e logo header */
+
+/* slider */
+
+.slider {
+position: relative;
+width: 80vw;
+height: 70vh;
+margin-top: 2vh;
+}
+.slider #banner{
+position: absolute;
+width: 80vw;
+height: 70vh;
+}
+.text{
+margin-left: 5%;
+width:40%;
+position: absolute;
+bottom: 10%;
+color: white;
+}
+.nero{
+position: absolute;
+width: 80vw;
+height: 70vh;
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* fine slider */
+
+/* inizio sezione main in 4 sub sezioni  */
+.main {
+position: relative;
+margin-top:5vh;
+width: 80vw;
+height: 90vh;
+}
+.subtitle {
+width: 80vw;
+height: 10vh;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.subtext{
+color: white;
+margin-left: 3%;
+}
+.left {
+background-color: rgba(0, 0, 0, 0.5);
+margin-top: 1vw;
+float: left;
+width: 20vw;
+height: 70vh;
+}
+.left img{
+width: 20vw;
+height: 50vh;
+}
+.midle{
+background-color: rgba(0, 0, 0, 0.5);
+margin-top: 1vw;
+margin-left: 2vw;
+float: left;
+width: 36vw;
+height: 70vh;
+}
+.midle img{
+width: 36vw;
+height: 50vh;
+}
+.right {
+margin-top: 1vw;
+margin-left: 2vw;
+background-color:rgba(0,0,0,0.5);
+float: left;
+width: 20vw;
+height: 70vh;
+}
+.right img {
+width: 20vw;
+height: 50vh;
+}
+.testo {
+margin-left: 2%;
+color: white;
+padding: 5%;
+padding: 1%;
+}
+/* fine main  */
+
+/* inizio footer */
+.footer {
+width: 80vw;
+height: 10vh;
+margin-top: 3vh;
+margin-bottom: 2vh;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.footer p{
+text-align: center;
+line-height: 10vh;
+color: white;
+font-weight: 500;
+}
+.footer p:hover{
+border-bottom:3px solid red;
+}
