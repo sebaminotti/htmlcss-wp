@@ -26,6 +26,8 @@ margin: 0 auto;
 
 /* inizio header */
 .header{
+  border-radius: 10px;
+  overflow: hidden;
 background-color: rgba(0,0,0,0.5);
 margin-top: 5vh;
 width: 80vw;
@@ -71,6 +73,8 @@ font-weight: 700;
 
 .slider {
 position: relative;
+border-radius:10px;
+overflow:hidden;
 width: 80vw;
 height: 70vh;
 margin-top: 2vh;
@@ -110,9 +114,16 @@ font-size: 1vw;
 position: relative;
 margin-top:5vh;
 width: 80vw;
-height: 90vh;
+}
+.over{
+position: absolute;
+background-color: rgba(0, 0, 0, 0.5);
+width: 36vw;
+height: 50vh;
 }
 .subtitle {
+  border-radius: 10px;
+  overflow: hidden;
 width: 80vw;
 height: 10vh;
 background-color: rgba(0, 0, 0, 0.5);
@@ -128,35 +139,41 @@ font-size: 2.2vw;
 font-size: 1vw;
 }
 .left {
+border-radius: 10px;
+overflow: hidden;
 background-color: rgba(0, 0, 0, 0.5);
 margin-top: 1vw;
 float: left;
 width: 20vw;
-height: 70vh;
+
 }
 .left img{
 width: 20vw;
 height: 50vh;
 }
 .midle{
+  border-radius: 10px;
+  overflow: hidden;
 background-color: rgba(0, 0, 0, 0.5);
 margin-top: 1vw;
 margin-left: 2vw;
 float: left;
 width: 36vw;
-height: 70vh;
+
 }
 .midle img{
 width: 36vw;
 height: 50vh;
 }
 .right {
+  border-radius: 10px;
+  overflow: hidden;
 margin-top: 1vw;
 margin-left: 2vw;
 background-color:rgba(0,0,0,0.5);
 float: left;
 width: 20vw;
-height: 70vh;
+
 }
 .right img {
 width: 20vw;
@@ -173,6 +190,8 @@ padding: 1%;
 
 /* inizio footer */
 .footer {
+  border-radius: 10px;
+  overflow: hidden;
 width: 80vw;
 height: 10vh;
 margin-top: 3vh;
@@ -185,7 +204,4 @@ text-align: center;
 line-height: 10vh;
 color: white;
 font-weight: 500;
-}
-.footer p:hover{
-border-bottom:3px solid red;
 }
